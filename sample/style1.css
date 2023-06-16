@@ -1,0 +1,198 @@
+body{
+    font-family: Arial, sans-serif;
+        background-color:#e1e359;
+    }
+    .white-color{
+        color: #fff;
+        
+       
+    }
+    .snapchat{
+      position: absolute;
+      left: 2%;
+      font-size: 40px;
+      transform: translateX(-50%);
+        background-color: transparent;
+        border-color: transparent;
+    }
+    
+    /* .img
+    {
+      align-items: center;
+      padding-right: 300px;
+      margin-right: 0px;
+    } */
+    
+    
+    .buttons{
+        position: absolute;
+    margin-top: 0;
+    margin-right: 0;
+    
+    }
+    .bt2{
+      position: absolute;
+      top: 15px;
+      right: 7%;
+      transform: translateX(-50%);
+      background-color: white;
+      border-color: transparent;
+      color: #000;
+      width:6%;
+      height: 25px;
+      border-radius: 50px;
+    }
+    .bt1{
+      position: absolute;
+      top: 15px;
+      right: 0%;
+      transform: translateX(-50%);
+      width:6%;
+      background-color: white;
+      border-color: transparent;
+      color: #000;
+      height: 25px;
+      border-radius: 50px;
+      }
+      .menu {
+        position: absolute;
+        top: 15px;
+        right: 16%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        background-color:#fff;
+        border-color: transparent;
+        color:#000;
+        border-radius: 100%;
+      }
+      .map{
+        position: absolute;
+        top: 6px;
+        left: 60%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border-color: transparent;
+        color: #000;
+        border-style: solid;
+        font-size: 20px;
+        box-shadow: none;
+        border-radius: 100%;
+      }
+       .stories{
+        position: absolute;
+        top: 6px;
+        left: 40%;
+        color: #000;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border-color: transparent;
+        border-style: solid;
+        font-size: 20px;
+        box-shadow: none;
+        border-radius: 100%;
+      } 
+      .chat{
+        position: absolute;
+        top: 6px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border-color: transparent;
+        color:#000;
+        border-style: solid;
+        border-radius: 100%;
+        font-size: 20px;
+        box-shadow: none;
+        border-radius: 100%;
+      }
+      .spotlight{
+        position: absolute;
+        top: 6px;
+        left: 45%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border-color: transparent;
+        color: #000;
+        border-style: solid;
+        border-radius: 100%;
+        font-size: 20px;
+        box-shadow: none;
+        border-radius: 100%;
+      
+      }
+      .lenses{
+        position: absolute;
+        top: 6px;
+        left: 55%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border-color: transparent;
+        color: #000;
+        border-style: solid;
+        border-radius: 100%;
+        font-size: 20px;
+        /* box-shadow: none; */
+        border-radius: 100%;
+      }
+      .footer{
+        color: #e1e359;
+        display: inline-block;
+      }
+      .fcontainer{
+        height:50px;
+       text-align: center;
+       font-size: 18px;
+        color: #fff;
+        background: #000;
+      }
+      .container{
+        flex-direction:"row";
+        justify-content: 'space-between';
+         /* align-items: center; */
+      } 
+      .snap{
+        display: inline-block;
+        position: fixed;
+      top: 0;
+      left: 0;
+      padding: 10px;
+      }
+    .text{
+      /* position: absolute; */
+      top: 15px;
+      right: 4%;
+      font-size: 25px;
+    }
+    #b1{
+      
+      border-radius: 50px;
+      color: #fff;
+    width:fit-content;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #000;
+    }
+    .subcontainer{
+    position: relative;
+    flex-direction:"row";
+    justify-content: 'space-between';
+    left: 0;
+    right: 0;
+    background-color: red;
+    }
+    .textcontainer{
+    display: flex;
+    
+    }
+    .text{
+    flex: 50%;
+    /* text-align: center; */
+    margin-left: 350px;
+    letter-spacing: 1px;
+    }
+    .image{
+      flex: 50%;
+     margin-right: 200px;
+    }
+    
